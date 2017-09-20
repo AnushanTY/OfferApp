@@ -9,7 +9,6 @@ public class Offerholder extends RecyclerView.ViewHolder {
     private static final String TAG = Offerholder.class.getSimpleName();
     public TextView offerName;
     public ImageView offerImage;
-
     public Offerholder(View itemView) {
         super(itemView);
         offerName = itemView.findViewById(R.id.recipe_name);

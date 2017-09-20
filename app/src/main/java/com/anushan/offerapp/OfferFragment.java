@@ -26,10 +26,8 @@ public class OfferFragment extends Fragment {
     private OfferAdapter mRecipeAdapter;
     private DatabaseReference mDatabaseRef;
     private DatabaseReference childRef;
-
     public OfferFragment() {
     }
-
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
